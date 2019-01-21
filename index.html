@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Trivia</title>
+      <link href="style.css" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+
+
+  </head>
+  <body>
+<div id="mainPage">
+  <h1>Teste seus conhecimentos e desafie-se!!!</h1>
+  <p class="jstext"></p>
+
+
+  <script src="app.js" charset="utf-8"></script>
+
+    <div id="gameBtn" class="show">
+      <table cellspacing="15">
+        <tr>
+          <td>Escolha o tema que deseja estudar:</td>
+          <td><button class="btn" class='btn-blue' id="history" onclick="playHistory()" type="button" name="button">História</button></td>
+          <td><button class="btn" class='btn-blue'id="geography" onclick="playGeography()" type="button" name="button">Geografia</button></td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="playAg" class="hide">
+            <button class="btn" type="button" name="button" onclick="playAgain()">Jogar novamente</button>
+    </div>
+
+  <div class="jstext2">
+   <footer class="jstext2">By Alice Labarca e Carla Regina Mendes</footer>
+  </div>
+</div>
+
+  </body>
+
+
+</html>
