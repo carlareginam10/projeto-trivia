@@ -1,0 +1,71 @@
+body {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #36648B;
+  padding: 20 45px 20px ;
+  font-size: 16px;
+  fonte color: white;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive; arial;
+}
+
+
+table {
+ color: white;
+ width: 600 px;
+ font-size: 40px;
+
+
+}
+
+.btn{
+  font-family: 'Permanent Marker', cursive; arial;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  color: blue; 
+
+}
+
+.hide{
+  display: none;
+
+}
+
+.show{
+  display: block;
+}
+
+
+li,h1 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+.jstext {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+.jstext2 {
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  font-family: arial;
+}
+
+.jstext3 {
+  text-align: left;
+  font-size: 20px;
+  color: red;
+}
+
+
+html {
+   background-image: url("img.jpg")
+
+}
